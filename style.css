@@ -24,7 +24,7 @@ main{
     margin: 20px auto;
 }
  .titulo{
-    background-color: #000000;
+    background-color: rgb(230, 230, 230);
     padding: 5px;
     border: 1px aliceblue; 
     border-radius: 10px;
