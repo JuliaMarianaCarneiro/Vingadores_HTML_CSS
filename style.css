@@ -11,7 +11,6 @@ header{
     text-align: center;
     padding: 10px;
 }
-
 header h1{
     margin: 0;
 }
@@ -21,62 +20,56 @@ header p {
 }
 
 main{
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     margin: 20px auto;
 }
-
-.titulo{
+ .titulo{
     background-color: rgb(230, 230, 230);
     padding: 5px;
-    border: 1px aliceblue;
+    border: 1px aliceblue; 
     border-radius: 10px;
-}
-
-.titulo h2{
+ }
+ .titulo h2{
     text-align: center;
     color: antiquewhite;
     margin-top: 0;
-}
-
-.Sinopse{
+ }
+ .Sinopse{
     background-color: red;
     padding: 2px;
     border: 1px red;
     border-radius: 20px;
     text-align: center;
-}
-
-.info{
+ }
+ .info{
+    background-color: red;
+    padding: 2px;
+    border:1px red ;
+    border-radius: 20px;
+    text-align: center;
+ }
+ .elenco{
     background-color: red;
     padding: 2px;
     border: 1px red;
     border-radius: 20px;
     text-align: center;
-}
-
-.elenco{
+ }
+ .sobre{
     background-color: red;
     padding: 2px;
     border: 1px red;
     border-radius: 20px;
     text-align: center;
-}
-
-.sobre{
+ }
+ .trailler{
     background-color: red;
     padding: 2px;
     border: 1px red;
     border-radius: 20px;
     text-align: center;
-}
-
-.trailler{
-    background-color: red;
-    padding: 2px;
-    border: 1px red;
-    border-radius: 20px;
-    text-align: center;
-}
+ }
 
 button{
     width: 100%;
@@ -89,11 +82,9 @@ button{
     font-size: 15px;
     cursor: pointer;
 }
-
 button a{
     text-decoration: none;
 }
-
 .Foto {
     width: 100%;
 }
